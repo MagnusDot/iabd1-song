@@ -10,3 +10,8 @@ jobs:
     steps:
       - name: Hello world echo
         run: echo "Hellow The real world !"
+      - name: install nodejs
+        run: |
+          sudo apt-get update
+          sudo apt-get install nodejs
+          sudo apt-get install npm
