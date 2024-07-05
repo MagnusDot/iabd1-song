@@ -40,4 +40,4 @@ jobs:
             name: mablague
             path: build
       - name: Display artifact
-        run: ls build
+        run: ls -a build
